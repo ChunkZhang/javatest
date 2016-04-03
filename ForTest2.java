@@ -3,14 +3,14 @@ class ForTest2
     public static void main(String[] args)
     {
         int sum = 0;
-        for(int i=1;i<=10;i++)
+        for(int i=1;i<=100;i++)
         {
             sum = sum+i;
         }
         System.out.println("sum="+sum);
         
         sum = 0; 
-        for(int i=1;i<=100;i++)
+        for(int i=1;i<=1000;i++)
         {
             if(i%7==0)
             {
